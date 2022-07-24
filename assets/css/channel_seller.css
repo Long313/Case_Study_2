@@ -1,0 +1,201 @@
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+/* Test */
+.grid__column-2 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 16.6667%;
+}
+
+.grid__column-6 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 50%;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+#header {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+}
+#header #title {
+  display: flex;
+  align-items: center;
+}
+#header #title a {
+  text-decoration: none;
+  color: #1D1D1D;
+  font-size: 1rem;
+  font-weight: 400;
+}
+#header #title a .logo-img {
+  height: 32px;
+  margin: -10px 8px 0 0;
+}
+#header #header-nav {
+  display: flex;
+  align-items: center;
+}
+#header #header-nav .home-page {
+  position: relative;
+  padding: 0 50px;
+}
+#header #header-nav .home-page a {
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+}
+#header #header-nav .home-page #icon-new {
+  position: absolute;
+  top: -2px;
+  right: 16px;
+  color: #fff;
+  background-color: #4C33FF;
+  border-radius: 20px;
+  font-size: 0.6rem;
+  padding: 1px 6px;
+}
+#header #header-nav .home-page span {
+  position: absolute;
+  height: 30px;
+  border-right: 1px solid #ccc;
+  right: 0;
+  top: -2px;
+}
+#header #header-nav #socials {
+  padding-left: 10px;
+}
+#header #header-nav #socials a {
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+#container {
+  top: 56px;
+  height: 800px;
+  background-color: rgba(138, 194, 237, 0.3);
+}
+#container .left {
+  margin-top: 100px;
+  padding-left: 50px;
+}
+#container .left .title h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #4C33FF;
+}
+#container .left .title p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+#container .left .img {
+  height: 300px;
+  background-image: url("/assets/img/channel__seller.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#container .right {
+  width: 400px;
+  height: 500px;
+  margin: 100px auto;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px #ccc;
+}
+#container .right form {
+  padding: 36px 32px;
+}
+#container .right form h2 {
+  text-align: center;
+}
+#container .right form .info {
+  margin-top: 30px;
+}
+#container .right form .info input {
+  padding: 8px 12px;
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-top: 20px;
+}
+#container .right form .info .help input {
+  display: inline-block;
+  width: auto;
+  accent-color: #4C33FF;
+  line-height: 1.4rem;
+  font-size: 1.4rem;
+}
+#container .right form .info .help a {
+  display: inline-block;
+  float: right;
+  margin-top: 16px;
+  text-decoration: none;
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+#container .right form .info #submit-btn {
+  background-color: #4C33FF;
+  color: #fff;
+}
+#container .right form .info #submit-btn:hover {
+  background-color: #33A1FF;
+  cursor: pointer;
+}
+#container .right form .info p {
+  margin-top: 20px;
+  text-align: center;
+}
+#container .right form .info p a {
+  text-decoration: none;
+}
+#container .right form .info div#decoration {
+  position: relative;
+  border-bottom: 1px solid #e5e5e5;
+}
+#container .right form .info div#decoration span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -12px;
+  padding: 0 4px;
+  color: #e5e5e5;
+  background-color: #fff;
+}
+#container .right form .info #login-btn {
+  background-color: #fff;
+}
+#container .right form .info #login-btn:hover {
+  background-color: #e5e5e5;
+}/*# sourceMappingURL=channel_seller.css.map */
