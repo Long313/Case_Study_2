@@ -12,16 +12,22 @@
 }
 
 /* Test */
-.grid__column-4 {
+.grid__column-3 {
   padding-left: 5px;
   padding-right: 5px;
   width: 33.3333%;
 }
 
-.grid__column-8 {
+.grid__column-5 {
   padding-left: 5px;
   padding-right: 5px;
-  width: 66.6667%;
+  width: 41.6667%;
+}
+
+.grid__column-7 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 58.3333%;
 }
 
 * {
@@ -92,6 +98,64 @@ body {
 }
 
 #container {
-  padding-top: 50%;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 700px;
+}
+#container .title {
+  margin-top: 100px;
+}
+#container .title h2 {
+  font-size: 3.2rem;
+}
+#container .title p {
+  font-size: 2.2rem;
+}
+#container .apps {
+  margin-top: 50px;
+}
+#container .apps p {
+  font-size: 2rem;
+}
+#container .apps ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#container .apps ul img {
+  width: 240px;
+  height: 68px;
+  margin-bottom: 16px;
+}
+#container .img {
+  background-image: url("../img/mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+  height: 680px;
+  margin-top: 20px;
+  margin-right: -80px;
+}
+#container .list-feature .title {
+  color: #3b3f53;
+  text-align: center;
+}
+#container .list-feature .title h2 {
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+#container .list-feature .title p {
+  padding: 0 60px;
+  font-size: 2rem;
+}
+#container .list-feature .feature {
+  margin-top: 40px;
+}
+#container .list-feature .feature .feature__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container .list-feature .feature .feature__flex p {
+  text-align: center;
 }/*# sourceMappingURL=app.css.map */
